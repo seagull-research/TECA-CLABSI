@@ -1,0 +1,38 @@
+# ---- R session artefacts ----
+.Rhistory
+.Rapp.history
+.RData
+.Rproj.user/
+.Renviron
+*.Rproj
+
+# ---- Input and output (never commit data or generated results) ----
+data/
+output/
+
+# ---- Data and result files ----
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.rds
+*.RDS
+*.rda
+*.json
+*.pdf
+
+# ---- Figures ----
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.eps
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*~
